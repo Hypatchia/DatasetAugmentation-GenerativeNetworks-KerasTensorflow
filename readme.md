@@ -55,6 +55,18 @@ It comes from <a>https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-
 
 
 ## Model Training & Results
+
+<h3 align="center">Generator Architecture</h3>
+<p align="center">
+  <img src="imgs/Generator.jpg" alt="Dataset Train & Validation" style="width:50%; height:auto;">
+</p>
+
+
+<h3 align="center">Discriminator Architecture</h3>
+<p align="center">
+  <img src="imgs/Discriminator.jpg" alt="Dataset Train & Validation" style="width:50%; height:auto;">
+</p>
+
 - Images were preprocessed through resizing, normalization & conversion to grayscale.
 - A batched tf dataset was created to ensure fast computations.
 - The Generator & Discriminator Architectures were designed taking into consideration the dataset structure and the Adversarial training features.
